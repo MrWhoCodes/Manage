@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header {
+    padding: 36px 1px 20px 20px;
+    display: flex;
+    align-items: center;
+    z-index: 6;
+    position: relative;
+    justify-content: space-evenly;
+    width: 97.1vw;
+}
+
+body {
+    width: 100%;
+
+    background-color: hsl(0, 0%, 98%);
+    overflow-x: hidden;
+}
+
+
+
+.centerNav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px 16px 4px 16px;
+}
+
+.centerNav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.centerNav li a:hover{
+    color: rgb(110, 110, 110);
+}
+
+.rightNav button{
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    font-size: 13px;
+    width: 139px;
+    border: none;
+    box-shadow: -1px 16px 43px -7px hsl(12, 88%, 59%);
+    border-radius: 50px;
+    height: 46px;
+    cursor: pointer;
+}
+.rightNav button:hover{
+    background-color: #f57b5c;
+    
+}
+.rightNav button:active {
+    background-color: white;
+    color: #f25f3a;
+}
+
+main{
+    padding: 132px 133px 20px 149px;
+    display: flex;
+    justify-content: space-between;
+    width: 78.1vw;
+    height: 79vh;
+}
+
+.Text h1 {
+    font-size: 49px;
+    color: #45455b;
+    line-height: 60px;
+}
+
+.Text p {
+    font-size: 17px;
+    color: hsl(227, 12%, 61%);
+    line-height: 27px;
+    margin-top: 21px;
+}
+
+.Text button {
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    font-size: 13px;
+    width: 139px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    box-shadow: -1px 16px 43px -7px hsl(12deg 88% 59%);
+    border-radius: 50px;
+    height: 46px;
+}
+.Text button:hover{
+    background-color: #f57b5c;
+    
+}
+.Text button:active {
+    background-color: white;
+    color: #f25f3a;
+}
+
+.RightMain{
+    position: absolute;
+    left: 52%;
+    top: 28%;
+    z-index: 4;
+}
+
+
+.thesvg {
+    position: absolute;
+    top: -60%;
+    z-index: 1;
+    right: -35%;
+}
+
+.mainsvg {
+    position: relative;
+    z-index: 4;
+}
+
+.SectionOne{
+    padding: 46px 133px 20px 149px;
+    display: flex;
+    justify-content: space-between;
+    width: 78.1vw;
+    height: 105vh;
+}
+
+.box {
+    width: 506px;
+    height: 200px;
+    margin: 9px;
+    display: flex;
+}
+
+.numberOne{
+    padding: 7px 22px 7px 26px;
+    border-radius: 59px;
+    height: 20px;
+    width: 39px;
+    background-color: hsl(12deg 88% 59%);
+    color: white;
+    margin-right: 30px;
+    
+}
+.textOne h5 {
+    font-size: 14px;
+    color: #2c2c56;
+}
+
+.textOne p {
+    margin-top: 17px;
+    font-size: 15px;
+    color: hsl(227, 12%, 61%);
+    line-height: 23px;
+}
+
+.leftTextWrapper h1 {
+    font-size: 39px;
+    color: #45455b;
+    line-height: 42px;
+}
+
+.leftTextWrapper p {
+    font-size: 17px;
+    color: hsl(227, 12%, 61%);
+    line-height: 27px;
+    margin-top: 39px;
+}
+
+.imgsec2 svg {
+    position: absolute;
+    right: 74%;
+    top: 174%;
+}
+
+.SectionTwo {
+    padding: 46px 0px 20px 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 79vh;
+}
+    
+    
+
+
+.headingprofiles h1 {
+    font-size: 39px;
+    color: #45455b;
+    line-height: 42px;
+}
+
+.containerClients{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.btn button {
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    font-size: 13px;
+    width: 139px;
+    border: none;
+    margin-top: 2rem;
+    box-shadow: -1px 16px 43px -7px hsl(12deg 88% 59%);
+    border-radius: 50px;
+    height: 46px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #f57b5c;
+    
+}
+.btn button:active {
+    background-color: white;
+    color: #f25f3a;
+}
+
+.ClientOne {
+    height: 34vh;
+    width: 436px;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    background-color: #f5f5f5;
+    z-index: 4;
+}
+
+.ClientOne img {
+    width: 16%;
+    position: relative;
+    bottom: 17%;
+}
+
+.ClientOne h5 {
+    font-size: 14px;
+    color: #2c2c56;
+}
+
+.ClientOne p {
+    margin-top: 17px;
+    font-size: 15px;
+    color: hsl(227, 12%, 61%);
+    line-height: 21px;
+}
+
+.SectionThree {
+    padding: 46px 133px 20px 149px;
+    display: flex;
+    width: 78.1vw;
+    height: 27vh;
+    background-color: #f25f3a;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 78.1vw;
+    align-items: center;
+    height: 27vh;
+}
+.SectionThree button {
+    color: #f25f3a;
+    background-color: hsl(0deg 0% 100%);
+    font-size: 13px;
+    width: 139px;
+    border: none;
+    margin-top: 2rem;
+    box-shadow: -1px 16px 43px -7px hsl(12deg 68% 39%);
+    border-radius: 50px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.SectionThree button:hover{
+    color: #f57b5c;
+    
+}
+.SectionThree button:active {
+    background-color: #f25f3a;
+    color: white;
+}
+
+.SectionThree h1 {
+    font-size: 39px;
+    color: #ffffff;
+    line-height: 42px;
+}
+
+.footercontainer {
+    padding: 42px 133px 20px 88px;
+    display: flex;
+    width: 83.1vw;
+    height: 32vh;
+    background-color: hsl(233, 12%, 13%);
+}
+
+.the {
+   width: 263px;
+   height: 100%;
+}
+
+.footerOne svg g path {
+    fill: #fff;
+}
+
+.footerFour{
+    width: 300px;
+}
+.me {
+    fill: #f25f3a;
+}
+
+.socialIcons{
+    margin-top: 100px;
+}
+
+.socialIcons svg {
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.socialIcons svg:hover{
+    color: #f25f3a;
+    
+}
+.socialIcons svg:active {
+    color: #f25f3a;
+   
+}
+
+.the a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 15px;
+    margin-top: 15px;
+    display: block;
+    font-weight: 100;
+}
+.the a:hover {
+    color: #f25f3a;
+}
+
+.the li {
+    list-style: none;
+}
+
+.input input {
+    width: 194px;
+    font-size: 15px;
+    border-radius: 50px;
+    height: 48px;
+    padding: 0px 13px;
+    outline: none;
+    border: none;
+}
+
+.input input:focus{
+    color: #f25f3a;
+}
+
+.input input:focus::placeholder {
+    color: #f25f3a;
+  }
+
+.input button {
+    width: 76px;
+    font-size: 15px;
+    border-radius: 50px;
+    height: 48px;
+    padding: 0px 13px;
+    background-color: #f25f3a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input button:hover {
+    background-color: #f57b5c;;
+}
+
+.input button:active{
+    background-color: #d8441f;
+}
+
+@media only screen and (max-width: 372px) {
+    body {
+        width: 100%;
+        background-color: hsl(0, 0%, 98%);
+        overflow-x: hidden;
+    }
+    header {
+        padding: 36px 1px 20px 20px;
+        display: flex;
+        align-items: center;
+        z-index: 6;
+        position: relative;
+        justify-content: space-evenly;
+        width: 372px;
+    }
+
+    .centerNav{
+        display: none;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        width: 372px;
+        height: 119vh;
+        padding-left: 0;
+    }
+
+    .leftMain{
+        margin-top: 113px;
+}
+
+.Text h1 {
+    font-size: 38px;
+    color: #45455b;
+    line-height: 53px;
+}
+.the svg{
+    margin-top: 23px;
+}
+.SectionThree button {
+    color: #f25f3a;
+    background-color: hsl(0deg 0% 100%);
+    font-size: 13px;
+    width: 140px;
+    padding: 14px;
+    border: none;
+    margin-top: 2rem;
+    box-shadow: -1px 16px 43px -7px hsl(12deg 68% 39%);
+    border-radius: 50px;
+    height: 7rem;
+    cursor: pointer;
+}
+.Text {
+    position: relative;
+    z-index: 6;
+    text-align: center;
+}
+
+.RightMain {
+    display: none;
+}
+
+.thesvg {
+    position: absolute;
+    top: -60%;
+    z-index: 1;
+    right: -35%;
+}
+
+.SectionOne {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 372px;
+    text-align: center;
+    height: 170vh;
+    padding-left: 0;
+}
+.imgsec2 svg {
+    position: absolute;
+    right: 74%;
+    top: 174%;
+}
+.RightTextWrapper{
+    position: relative;
+    z-index: 6;
+    margin-top: 45px;
+}
+.box {
+    width: 356px;
+    height: 200px;
+    margin: 9px;
+    display: flex;
+}
+
+
+.SectionTwo {
+    padding: 46px 0px 20px 0px;
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 188vh;
+}
+.containerClients {
+    width: 372px;
+    flex-direction: column;
+    height: 139vh;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.ClientOne {
+    height: 34vh;
+    width: 342px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 75px;
+    position: relative;
+    background-color: #f5f5f5;
+    z-index: 4;
+}
+
+.btn button {
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    font-size: 13px;
+    width: 139px;
+    border: none;
+    margin-top: 6rem;
+    box-shadow: -1px 16px 43px -7px hsl(12deg 88% 59%);
+    border-radius: 50px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.SectionThree {
+    display: flex;
+    padding: 40px 36px 20px 46px;
+    width: 372px;
+    height: 43vh;
+    background-color: #f25f3a;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 78.1vw;
+    align-items: center;
+    flex-direction: column;
+    height: 27vh;
+}
+
+.footercontainer {
+    padding: 42px 32px 20px 31px;
+    display: flex;
+    width: 372px;
+    flex-direction: column-reverse;
+    height: 89vh;
+    background-color: hsl(233, 12%, 13%);
+
+}
+.the {
+    width: 263px;
+    height: 100%;
+}
+.socialIcons {
+    margin-top: 47px;
+}
+
+.footerFour {
+    width: 300px;
+}
+}
+  
+
+
